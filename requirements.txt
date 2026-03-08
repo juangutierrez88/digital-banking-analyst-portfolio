@@ -1,0 +1,29 @@
+# === CORE DATA ANALYSIS ===
+pandas==2.2.3
+numpy==2.2.4
+
+# === VISUALIZATION ===
+matplotlib==3.10.1
+seaborn==0.13.2
+
+# === INTERACTIVE ENVIRONMENT ===
+jupyter==1.1.1
+notebook==7.3.3
+ipykernel==6.29.5
+
+# === EXCEL FILES ===
+openpyxl==3.1.5
+xlsxwriter==3.2.2
+
+# === DATABASES ===
+SQLAlchemy==2.0.38
+
+# === DATE HANDLING ===
+python-dateutil==2.9.0.post0
+pytz==2025.2
+
+# === GENERAR DATOS REALISTAS ===
+Faker==36.2.2
+
+# === OPCIONAL (solo si lo necesitas después) ===
+# scipy==1.15.2  # Comentado temporalmente

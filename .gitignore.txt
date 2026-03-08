@@ -1,0 +1,53 @@
+# Datos generados (no subir datos completos)
+data/raw/*.csv
+data/processed/*.csv
+!data/raw/muestra_*.csv  # Excepción: subimos una muestra pequeña
+
+# Base de datos SQLite
+*.db
+*.sqlite
+*.sqlite3
+
+# Archivos de Power BI con datos
+*.pbix
+!power_bi/*.pbix  # Si tu .pbix tiene datos, súbelo con cuidado
+
+# Entornos virtuales de Python
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Archivos de configuración de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos de Jupyter Notebook sin outputs
+.ipynb_checkpoints/
+*.ipynb
+!scripts/*.ipynb  # Excepción: notebooks en scripts/
+
+# Archivos de Excel temporales
+*.xlsx~
+*.xlsm~
+
+# Cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de entorno
+.env
+.venv
+.python-version
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
