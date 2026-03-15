@@ -51,11 +51,11 @@ for i in range(1, num_clientes + 1):
 
     # Definir ingreso mensual estimado, acorde con el segmento
     if segmento == 'Premium':
-        ingreso = random.normal(80000, 20000)
+        ingreso = np.random.normal(80000, 20000)
     elif segmento == 'Alto':
-        ingreso = random.normal(45000, 10000)
+        ingreso = np.random.normal(45000, 10000)
     elif segmento == 'Medio':
-        ingreso = random.normal(25000, 5000)
+        ingreso = np.random.normal(25000, 5000)
     else:
         ingreso = np.random.normal(12000, 3000)
 
